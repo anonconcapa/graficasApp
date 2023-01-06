@@ -1,0 +1,19 @@
+<h1>Redes sociales mas usadas</h1>
+<hr>
+
+<div    *ngIf=""
+        class="alert alert-info">Cargando Data...</div>
+
+
+<div class="row">
+    <div class="col-9">
+
+
+                    <canvas baseChart class="chart"
+                    [data]="doughnutChartData"
+                    [type]="doughnutChartType"
+                    >
+                    </canvas>
+
+    </div>
+</div>
